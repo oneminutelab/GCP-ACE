@@ -1,0 +1,6 @@
+gcloud compute instances create test-vm \
+--zone=us-central1-a \
+--machine-type=e2-micro \
+--network-interface=subnet=default \
+--tags=test-server \
+--deletion-protection
