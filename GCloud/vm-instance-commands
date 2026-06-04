@@ -1,0 +1,5 @@
+gcloud compute instances list
+gcloud compute instances stop {vm-name} --zone={zone-name}
+gcloud compute instances start {vm-name} --zone={zone-name}
+gcloud compute instances delete {vm-name} --zone={zone-name}
+gcloud compute instances update {vm-name} --zone={zone-name} --n-deletion-protection
